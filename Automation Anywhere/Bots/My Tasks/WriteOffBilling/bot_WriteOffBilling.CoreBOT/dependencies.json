@@ -1,0 +1,1 @@
+{"path":"Automation Anywhere\\Bots\\My Tasks\\WriteOffBilling\\WriteOffBilling.CoreBOT","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\My Tasks\\WriteOffBilling\\Reusable\\Util.TakeScreenshots","Automation Anywhere\\Bots\\My Tasks\\WriteOffBilling\\Operators\\WriteOffBilling.WriteOffActivityBOT"]}
