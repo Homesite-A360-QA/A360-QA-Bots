@@ -1,0 +1,1 @@
+{"path":"Automation Anywhere\\Bots\\My Tasks\\WCValidation\\ReadConfigurations_WCPAS","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\My Tasks\\WCValidation\\UnlockFolder","Automation Anywhere\\Bots\\My Tasks\\WCValidation\\Util.AddSlashToTheEndIfUnavailable","Automation Anywhere\\Bots\\My Tasks\\WCValidation\\LockFolder"]}
