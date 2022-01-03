@@ -1,1 +1,1 @@
-{"path":"Automation Anywhere\\Bots\\My Tasks\\CLAuto\\Email\\Email.Start","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\My Tasks\\CLAuto\\Configuration\\ReadConfig.Email","Automation Anywhere\\Bots\\My MetaBots\\CLAuto\\raiseUnexpectedException"]}
+{"path":"Automation Anywhere\\Bots\\My Tasks\\CLAuto\\Email\\Email.Start","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\My MetaBots\\CLAuto\\raiseUnexpectedException","Automation Anywhere\\Bots\\My Tasks\\CLAuto\\Configuration\\ReadConfig.Email"]}
