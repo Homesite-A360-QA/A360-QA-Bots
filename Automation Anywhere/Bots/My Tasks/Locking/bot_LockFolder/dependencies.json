@@ -1,1 +1,1 @@
-{"path":"Automation Anywhere\\Bots\\My Tasks\\Locking\\LockFolder","manualDependencies":[],"scannedDependencies":[]}
+{"path":"Automation Anywhere\\Bots\\My Tasks\\Locking\\LockFolder","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\My Tasks\\Locking\\WaitTillUnlocked","Automation Anywhere\\Bots\\My Tasks\\Locking\\TryLocking"]}
