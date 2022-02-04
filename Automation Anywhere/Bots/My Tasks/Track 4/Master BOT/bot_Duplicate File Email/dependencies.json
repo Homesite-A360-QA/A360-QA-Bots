@@ -1,1 +1,1 @@
-{"path":"Automation Anywhere\\Bots\\My Tasks\\Track 4\\Master BOT\\Duplicate File Email","manualDependencies":[],"scannedDependencies":[]}
+{"path":"Automation Anywhere\\Bots\\My Tasks\\Track 4\\Master BOT\\Duplicate File Email","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\My Tasks\\Track 4\\Master BOT\\ReadConfig.Common"]}
