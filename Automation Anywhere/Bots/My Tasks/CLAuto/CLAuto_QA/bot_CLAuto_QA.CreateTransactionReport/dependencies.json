@@ -1,1 +1,1 @@
-{"path":"Automation Anywhere\\Bots\\My Tasks\\CLAuto\\CLAuto_QA\\CLAuto_QA.CreateTransactionReport","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\My Tasks\\Locking\\UnlockFolder","Automation Anywhere\\Bots\\My Tasks\\Locking\\LockFolder"]}
+{"path":"Automation Anywhere\\Bots\\My Tasks\\CLAuto\\CLAuto_QA\\CLAuto_QA.CreateTransactionReport","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\My Tasks\\Locking\\LockFolder","Automation Anywhere\\Bots\\My Tasks\\Locking\\UnlockFolder"]}
