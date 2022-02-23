@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<LicenseTermination Environment="UAT">
+	<Folders> 
+		<SharedDrivePath>C:\Users\mt_skumar.CAMELOT\Documents\Automation Anywhere Files\Automation Anywhere\My Docs\License Termination\Sharedrive</SharedDrivePath>
+		<ArchiveFolderPath>C:\Users\mt_skumar.CAMELOT\Documents\Automation Anywhere Files\Automation Anywhere\My Docs\License Termination\Archive</ArchiveFolderPath>
+		<LocalFolderPath>C:\Users\mt_skumar.CAMELOT\Documents\Automation Anywhere Files\Automation Anywhere\My Docs\License Termination\Local Input</LocalFolderPath>
+		<ErrorScreenshot>C:\Users\mt_skumar.CAMELOT\Documents\Automation Anywhere Files\Automation Anywhere\My Docs\License Termination\Logs\ErrorScreenShots</ErrorScreenshot>
+		<Logs>C:\Users\mt_skumar.CAMELOT\Documents\Automation Anywhere Files\Automation Anywhere\My Docs\License Termination\Logs</Logs>
+		<StateAbbreviationFilePath>C:\Users\mt_skumar.CAMELOT\Documents\Automation Anywhere Files\Automation Anywhere\My Docs\License Termination</StateAbbreviationFilePath>
+
+	</Folders>	
+	
+	<Application>
+		<SirconLoginURL>https://uat.sircon.com/login.jsp</SirconLoginURL>
+		<OktaLogin>https://homesite.okta.com</OktaLogin>
+	</Application>
+	<Input>
+		<LicenseInputFileName>License Input File</LicenseInputFileName>
+                <LicenseReportFileName>License Report</LicenseReportFileName>
+
+	</Input>
+	<Email> 
+		<BOTEmailAddress>BOTReports@homesite.com</BOTEmailAddress>
+		<OpsTeamEmailAddress>mt_skumar@homesite.com</OpsTeamEmailAddress>
+		<RPAProdTeamEmailAddress>mt_skumar@homesite.com</RPAProdTeamEmailAddress>
+			<StartEmail>
+				<Subj>License Termination BOT - Started - %Machinename%</Subj>
+				<Body>%%!DOCTYPE html$$%%html$$%%head$$%%body$$%%div$$%%h4 style="font-family:Calibri;font-size:16pt;"$$%%b$$License Termination BOT %%/b$$%%/h4$$%%span style="font-family:Calibri; font-size:12pt;"$$Hello,%%br$$%%br$$The BOT started the process.%%br$$%%br$$Thanks,%%br$$License Termination BOT %%br$$%%br$$%%span style="font-size:11pt"$$%%i$$This is an automated message. Please do not reply%%/i$$%%/span$$%%/span$$%%/div$$%%/body$$%%/head$$%%/html$$</Body>
+			</StartEmail>
+                        <CompletionEmail>
+				<Subj>License Termination BOT - Completed - %Machinename% </Subj>
+				<Body>%%!DOCTYPE html$$%%html$$%%head$$%%body$$%%div$$%%h4 style="font-family:Calibri;font-size:16pt;"$$%%b$$License Termination BOT %%/b$$%%/h4$$%%span style="font-family:Calibri; font-size:12pt;"$$Hello,%%br$$%%br$$The BOT completed its processing for the day.%%br$$%%br$$Thanks,%%br$$License Termination BOT %%br$$%%br$$%%span style="font-size:11pt"$$%%i$$This is an automated message. Please do not reply%%/i$$%%/span$$%%/span$$%%/div$$%%/body$$%%/head$$%%/html$$</Body>
+			</CompletionEmail>
+			<HardStopEmail>
+				<Subj>License Termination BOT - Hard-Stopped!</Subj>
+				<Body>%%!DOCTYPE html$$%%html$$%%head$$%%body$$%%div$$%%h4 style="font-family:Calibri;font-size:16pt;"$$%%b$$License Termination BOT Error %%/b$$%%/h4$$%%span style="font-family:Calibri; font-size:12pt;"$$Hi,%%br$$A processing error has occurred with the BOT:%%br$$ambsdemsp;ambsdemsp;ambsdemsp;%%b$$Error Information:%%/b$$ Hard Stop Error - ?Machinename?%%br$$%%br$$%%b$$Please address the error, resolve it, and restart the BOT service.%%/b$$%%br$$Thanks,%%br$$License Termination BOT %%br$$%%br$$%%span style="font-size:11pt"$$%%i$$This is an automated message. Please do not reply%%/i$$%%/span$$%%/span$$%%/div$$%%/body$$%%/head$$%%/html$$</Body>
+			</HardStopEmail>
+			<InputFileMissing>
+				<Subj>License Termination BOT - Input File Missing -  %Machinename%</Subj>
+				<Body>%%!DOCTYPE html$$%%html$$%%head$$%%body$$%%div$$%%h4 style="font-family:Calibri;font-size:16pt;"$$%%b$$License Termination BOT Error %%/b$$%%/h4$$%%span style="font-family:Calibri; font-size:12pt;"$$Hello,%%br$$%%br$$The input file for License Termination Bot is missing. Please find below the detail.%%br$$%%ul$$%%li$$File Name ambsdnbsp;- ?Filename?%%/li$$%%li$$File Path ambsdnbsp;- ?Filepath?%%/li$$%%/ul$$%%br$$Thanks,%%br$$License Termination BOT %%br$$%%br$$%%span style="font-size:11pt"$$%%i$$This is an automated message. Please do not reply%%/i$$%%/span$$%%/span$$%%/div$$%%/body$$%%/head$$%%/html$$</Body>
+			</InputFileMissing>
+			<ShareDriveErrorEmail>
+				<Subj>License Termination BOT - Share Drive Access Failure! - %Machinename%</Subj>
+				<Body>%%!DOCTYPE html$$%%html$$%%head$$%%body$$%%div$$%%h4 style="font-family:Calibri;font-size:16pt;"$$%%b$$License Termination BOT Error %%/b$$%%/h4$$%%span style="font-family:Calibri; font-size:12pt;"$$Hi Team,%%br$$%%br$$There was an error when accessing the shared drive location for archiving the file.%%br$$%%b$$Kindly check the access to the share drive path below%%/b$$%%br$$%%ul$$%%li$$Shared drive path ambsdnbsp;- ?Sharedrivepath? %%/li$$%%/ul$$%%br$$Thanks,%%br$$License Termination BOT %%br$$%%br$$%%span style="font-size:11pt"$$%%i$$This is an automated message. Please do not reply%%/i$$%%/span$$%%/span$$%%/div$$%%/body$$%%/head$$%%/html$$</Body>	
+			</ShareDriveErrorEmail>
+			<LicenseTerminationReportEmail>
+				<Subj>License Termination BOT – Report</Subj>
+				<Body>%%!DOCTYPE html$$%%html$$%%head$$%%body$$%%div$$%%h4 style="font-family:Calibri;font-size:16pt;"$$%%b$$License Termination BOT %%/b$$%%/h4$$%%span style="font-family:Calibri; font-size:12pt;"$$Hi Team,%%br$$%%br$$The BOT completed its processing of the attached file.%%br$$%%br$$Thanks,%%br$$License Termination BOT %%br$$%%br$$%%span style="font-size:11pt"$$%%i$$This is an automated message. Please do not reply%%/i$$%%/span$$%%/span$$%%/div$$%%/body$$%%/head$$%%/html$$</Body>	
+			</LicenseTerminationReportEmail>
+	</Email>
+	
+</LicenseTermination>
