@@ -1,1 +1,1 @@
-{"path":"Automation Anywhere\\Bots\\My Tasks\\CLAuto\\CLAuto_QA\\MoveFilesForBiz","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\My Tasks\\Locking\\UnlockFolder_Dup","Automation Anywhere\\Bots\\My Tasks\\Locking\\LockFolder_Dup"]}
+{"path":"Automation Anywhere\\Bots\\My Tasks\\CLAuto\\CLAuto_QA\\MoveFilesForBiz","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\My Tasks\\Locking\\UnlockFolder","Automation Anywhere\\Bots\\My Tasks\\Locking\\LockFolder"]}
