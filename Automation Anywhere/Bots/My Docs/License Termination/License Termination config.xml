@@ -21,8 +21,8 @@
 	</Input>
 	<Email> 
 		<BOTEmailAddress>BOTReports@homesite.com</BOTEmailAddress>
-		<OpsTeamEmailAddress>mt_cnunna@homesite.com;mt_kiran.mayanna@homesite.com</OpsTeamEmailAddress>
-		<RPAProdTeamEmailAddress>mt_cnunna@homesite.com;mt_kiran.mayanna@homesite.com</RPAProdTeamEmailAddress>
+		<OpsTeamEmailAddress>mt_skumar@homesite.com</OpsTeamEmailAddress>
+		<RPAProdTeamEmailAddress>Chandrasekhar.Nunna@mindtree.com</RPAProdTeamEmailAddress>
 			<StartEmail>
 				<Subj>License Termination BOT - Started - %Machinename%</Subj>
 				<Body>%%!DOCTYPE html$$%%html$$%%head$$%%body$$%%div$$%%h4 style="font-family:Calibri;font-size:16pt;"$$%%b$$License Termination BOT %%/b$$%%/h4$$%%span style="font-family:Calibri; font-size:12pt;"$$Hello,%%br$$%%br$$The BOT started the process.%%br$$%%br$$Thanks,%%br$$License Termination BOT %%br$$%%br$$%%span style="font-size:11pt"$$%%i$$This is an automated message. Please do not reply%%/i$$%%/span$$%%/span$$%%/div$$%%/body$$%%/head$$%%/html$$</Body>
