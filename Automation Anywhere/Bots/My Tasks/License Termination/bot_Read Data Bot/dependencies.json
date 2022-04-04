@@ -1,1 +1,1 @@
-{"path":"Automation Anywhere\\Bots\\My Tasks\\License Termination\\Read Data Bot","manualDependencies":[],"scannedDependencies":[]}
+{"path":"Automation Anywhere\\Bots\\My Tasks\\License Termination\\Read Data Bot","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\My Tasks\\License Termination\\Sircon Process Activity Bot"]}
