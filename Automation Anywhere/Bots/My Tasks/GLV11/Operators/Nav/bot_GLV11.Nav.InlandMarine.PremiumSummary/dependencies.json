@@ -1,1 +1,1 @@
-{"path":"Automation Anywhere\\Bots\\My Tasks\\GLV11\\Operators\\Nav\\GLV11.Nav.InlandMarine.PremiumSummary","manualDependencies":[],"scannedDependencies":[]}
+{"path":"Automation Anywhere\\Bots\\My Tasks\\GLV11\\Operators\\Nav\\GLV11.Nav.InlandMarine.PremiumSummary","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\My Tasks\\GLV11\\Reusable\\wait_for_bar"]}
