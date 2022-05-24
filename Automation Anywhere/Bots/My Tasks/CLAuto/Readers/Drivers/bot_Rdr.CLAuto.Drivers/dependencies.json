@@ -1,1 +1,1 @@
-{"path":"Automation Anywhere\\Bots\\My Tasks\\CLAuto\\Readers\\Drivers\\Rdr.CLAuto.Drivers","manualDependencies":[],"scannedDependencies":[]}
+{"path":"Automation Anywhere\\Bots\\My Tasks\\CLAuto\\Readers\\Drivers\\Rdr.CLAuto.Drivers","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\My MetaBots\\CLAuto\\raiseUnexpectedException","Automation Anywhere\\Bots\\My Tasks\\CLAuto\\Reusable\\Util.State.GetExpandedFormOfState"]}
