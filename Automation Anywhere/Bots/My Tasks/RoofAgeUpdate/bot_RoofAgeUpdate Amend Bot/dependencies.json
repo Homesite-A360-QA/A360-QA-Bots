@@ -1,1 +1,1 @@
-{"path":"Automation Anywhere\\Bots\\My Tasks\\RoofAgeUpdate\\RoofAgeUpdate Amend Bot","manualDependencies":[],"scannedDependencies":[]}
+{"path":"Automation Anywhere\\Bots\\My Tasks\\RoofAgeUpdate\\RoofAgeUpdate Amend Bot","manualDependencies":[],"scannedDependencies":["Automation Anywhere\\Bots\\My Tasks\\RoofAgeUpdate\\RoofAgeUpdate Horison Rebuild Cost Bot"]}
